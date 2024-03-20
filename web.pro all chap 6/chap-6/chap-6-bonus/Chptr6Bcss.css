@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: 50px auto;
+}
+
+#colorDisplay {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+#options {
+    margin: 20px auto;
+}
+
+.option {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#restartBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
